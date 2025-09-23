@@ -2,27 +2,23 @@
 ## floating-point numbers, strings, and boolean. Implement a Python using pytest to test case for each
 ## data type, ensuring that the script’s behavior matches the expected outcomes.
 
-def int_task():
-    int_test = 123
-    print(int_test)
+def get_int():
+    return 16
 
-def float_task():
-    float_test = 3.14
-    print(float_test)
+def get_float():
+    return 3.14
 
-def string_task():
-    string_test = "Hello World"
-    print(string_test)
+def get_string():
+    return "Task 2"
 
-def bool_task():
-    bool_test = True
-    print(bool_test)
+def get_bool():
+    return False
 
 def main():
-    int_task()
-    float_task()
-    string_task()
-    bool_task()
+    print(f"Int: {get_int()}")
+    print(f"Float: {get_float()}")
+    print(f"String: {get_string()}")
+    print(f"Bool: {get_bool()}")
 
 if __name__ == '__main__':
     main()
