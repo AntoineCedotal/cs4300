@@ -7,11 +7,11 @@
 
 def test_num_value(num):
     if (num > 0):
-        print("Positive!")
+        return "Positive!"
     elif (num < 0):
-        print("Negative!")
+        return "Negative!"
     else:
-        print("Zero!")
+        return "Zero!"
 
 def test_prime_print(number):
     for num in range(1, number):
