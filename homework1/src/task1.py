@@ -3,7 +3,7 @@
 ## console. Set up a pytest test case that verifies the output of your script. - Docs.
 
 def main():
-    print("Hello World")
+    print("Hello World!")
 
 if __name__ == '__main__':
     main()

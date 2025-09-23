@@ -1,9 +1,12 @@
-import task1
+import sys, os
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
+
+from src import task1
 
 def test_hello_world(capsys):
-    # Capture the printed output
+    task1.main()
     captured = capsys.readouterr()
-    assert captured.out.strip() == "Hello, World!"
+    assert captured.out.strip() == "Hello World!"
 
 
 def main():
