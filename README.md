@@ -52,33 +52,27 @@ To run a specific test file:
 **Homework 1 Tasks:**
 
 **Task 1:** Introduction to Python and Testing
-- Create task1.py to print "Hello, World!" and write a pytest test.
+-  Print "Hello World!"
 
 **Task 2:** Variables and Data Types
 - Demonstrate integers, floats, strings, and booleans.
-- Write pytest tests for each data type.
 
 **Task 3:** Control Structures
 - If/else statement for positive, negative, zero numbers.
 - For loop to print first 10 prime numbers.
 - While loop to sum numbers from 1 to 100.
-- Write pytest tests.
 
 **Task 4:** Functions and Duck Typing
-- Write calculate_discount(price, discount) function accepting any numeric type.
-- Write pytest tests for integer and float inputs.
+- calculate_discount(price, discount) function accepting any numeric type
 
 **Task 5:** Lists and Dictionaries
 - Create a list of favorite books and slice first 3 items.
 - Create a dictionary with student names and IDs.
-- Write pytest tests.
 
 **Task 6:** File Handling and Metaprogramming
-- Create task6_read_me.txt with sample text.
-- Write task6.py to count words in the file.
-- Write pytest tests.
+- task6_read_me.txt with sample text
+- task6.py to count words in the tast6_read_me.py file.
 
 **Task 7:** Package Management
-- Install a Python package (e.g., numpy, requests, matplotlib).
-- Write task7.py demonstrating its use.
-- Write pytest tests.
+- Install a Python package (numpy).
+- task7.py demonstrates its use.
